@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ManyToMany
 {
-    class Teacher
+    public class Teacher
     {
         public long id { get; set; }
         public string tname { get; set; }

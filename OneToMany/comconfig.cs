@@ -10,6 +10,10 @@ namespace OneToMany
 {
     class comconfig : IEntityTypeConfiguration<comment>
     {
+        /// <summary>
+        /// 一篇文章有多个评论
+        /// </summary>
+        /// <param name="builder"></param>
         public void Configure(EntityTypeBuilder<comment> builder)
         {
             builder.ToTable("t_comment");

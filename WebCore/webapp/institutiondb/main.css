@@ -1,0 +1,138 @@
+﻿body {
+/*    padding-bottom: 5rem;*/
+/*    background: #eef0f8;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 350px;
+    background-image: url(../imgs/my-bg.jpg);*/
+background:#f5f5f5;
+}
+
+
+
+#MainLayout > .nom-layout-header {
+    height: 80px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    background: #08c;
+}
+
+#MainLayout > .nom-layout-body {
+    min-height:calc( 100vh - 400px );
+    margin:10px 0;
+}
+
+    #ContentNavbar {
+        color: white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+#Searchform {
+    background-color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.message-empty svg {
+    fill: #ccc;
+}
+
+.message-unread svg {
+    fill: #fa0;
+}
+
+.message-read svg {
+    fill: #aaa;
+}
+
+
+/* 全局版本通知栏，覆盖富文本中的css */
+.wetrial-side-mini-bar {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    list-style: none;
+}
+
+.wetrial-side-mini-bar .item {
+    display: block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    /* background-color: gray;
+    color: white; */
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 2px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.wetrial-side-mini-bar .item img {
+    width: 24px;
+    height: 24px;
+}
+
+.wetrial-side-mini-bar .item a {
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+    line-height: 12px;
+    display: block;
+}
+
+/*组织端背景样式*/
+.wetrial-side-mini-bar .item:hover {
+    background-color: #256e9e;
+}
+
+.wetrial-side-mini-bar .item:hover>img {
+    display: none;
+}
+
+.lim_float_icon {
+    display: none;
+}
+
+.list-paddingleft-2 li>p {
+    padding: 0;
+    margin: 0;
+}
+.sticky{
+    position:sticky;
+    top:0;
+    z-index:900;
+    background-color:#ffffff;
+}
+.vistedlink:visited {
+    color: #495057;
+}
+
+.simpletext input {
+    height: 50px!important;
+}
+.simpletext button {
+    width: 50px;
+}
+.simplegroup .nom-control{
+    display:flex;
+    justify-content:center;
+}
+.u-justify-center-tab  ul {
+    justify-content: center;
+}
+.nom-divider.p-type-horizontal{
+    margin:10px 0;
+}
+.testformuladate .nom-field-label {
+    flex:none!important;
+}
+.yearbtn {
+    color: var(--nom-color-primary);
+}
+

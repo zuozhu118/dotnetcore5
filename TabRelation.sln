@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneToMany", "OneToMany\OneToMany.csproj", "{7B505A9B-47AD-4CBF-96C4-2897573FE86D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfReference", "SelfReference\SelfReference.csproj", "{A89696A3-DCC9-4AB3-BA3D-7B089BAB6F27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfReference", "SelfReference\SelfReference.csproj", "{A89696A3-DCC9-4AB3-BA3D-7B089BAB6F27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyToMany", "ManyToMany\ManyToMany.csproj", "{732216CD-0914-4BD8-BA11-3C6962784BFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManyToMany", "ManyToMany\ManyToMany.csproj", "{732216CD-0914-4BD8-BA11-3C6962784BFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NativeSQL", "NativeSQL\NativeSQL.csproj", "{10063216-8B7C-47E0-8AD9-56E668080EB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrencyControl", "ConcurrencyControl\ConcurrencyControl.csproj", "{1C97457E-24BE-421E-BAF0-B6EBAF3FAB14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi0517", "WebApi0517\WebApi0517.csproj", "{A06DABA7-A835-476D-9F21-1EE4020932BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CacheAPI", "CacheAPI\CacheAPI.csproj", "{181399AD-58A7-4ABF-932B-B77E53FF5F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterAPI", "FilterAPI\FilterAPI.csproj", "{646CC684-BEC9-4686-8B98-0BF2AF573BCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{732216CD-0914-4BD8-BA11-3C6962784BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{732216CD-0914-4BD8-BA11-3C6962784BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{732216CD-0914-4BD8-BA11-3C6962784BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10063216-8B7C-47E0-8AD9-56E668080EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10063216-8B7C-47E0-8AD9-56E668080EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10063216-8B7C-47E0-8AD9-56E668080EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10063216-8B7C-47E0-8AD9-56E668080EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C97457E-24BE-421E-BAF0-B6EBAF3FAB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C97457E-24BE-421E-BAF0-B6EBAF3FAB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C97457E-24BE-421E-BAF0-B6EBAF3FAB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C97457E-24BE-421E-BAF0-B6EBAF3FAB14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06DABA7-A835-476D-9F21-1EE4020932BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06DABA7-A835-476D-9F21-1EE4020932BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06DABA7-A835-476D-9F21-1EE4020932BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06DABA7-A835-476D-9F21-1EE4020932BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181399AD-58A7-4ABF-932B-B77E53FF5F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181399AD-58A7-4ABF-932B-B77E53FF5F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181399AD-58A7-4ABF-932B-B77E53FF5F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181399AD-58A7-4ABF-932B-B77E53FF5F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

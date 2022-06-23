@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ManyToMany
 {
-    class DataBase:DbContext
+    public class DataBase : DbContext
     {
         public DbSet<Student> Student { get; set; }
 
