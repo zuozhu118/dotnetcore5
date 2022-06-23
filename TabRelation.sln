@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi0517", "WebApi0517\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CacheAPI", "CacheAPI\CacheAPI.csproj", "{181399AD-58A7-4ABF-932B-B77E53FF5F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilterAPI", "FilterAPI\FilterAPI.csproj", "{646CC684-BEC9-4686-8B98-0BF2AF573BCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilterAPI", "FilterAPI\FilterAPI.csproj", "{646CC684-BEC9-4686-8B98-0BF2AF573BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyControlAPI", "ConcurrencyControlAPI\ConcurrencyControlAPI.csproj", "{84B6F448-2450-414E-9A37-7EE9B629B4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{646CC684-BEC9-4686-8B98-0BF2AF573BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B6F448-2450-414E-9A37-7EE9B629B4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B6F448-2450-414E-9A37-7EE9B629B4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B6F448-2450-414E-9A37-7EE9B629B4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B6F448-2450-414E-9A37-7EE9B629B4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

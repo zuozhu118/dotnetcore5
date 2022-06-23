@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace ConcurrencyControl
+namespace ConcurrencyControlAPI
 {
     class houseconfig : IEntityTypeConfiguration<House>
     {
@@ -22,7 +22,7 @@ namespace ConcurrencyControl
             //builder.Property(a => a.owner).IsRowVersion();
 
             //使用RowVersion属性，设置为并发令牌；
-            builder.Property(a => a.RowVersion).IsRowVersion();
+            //builder.Property(a => a.RowVersion).IsRowVersion();
         }
     }
 }
