@@ -14,13 +14,15 @@ builder.Services.AddSwaggerGen();
 builder.Services.Configure<MvcOptions>(a =>
 {
     //注入ExceptionFilter:
+    //ExceptionFilter执行顺序是后注入的先执行，先注入的后执行；
     //filter注入顺序是有关系的，后注入的先执行，LogExceptionFilter放在MyExceptionFilter后面会先于MyExceptionFilter执行；
     a.Filters.Add<MyExceptionFilter>();
     a.Filters.Add<LogExceptionFilter>();
 
-    //注入ActionFilter：
-    a.Filters.Add<MyActionFilter>();
+    //注入ActionFilter：ActionFilter是先注入的先执行，后注入的后执行；
     a.Filters.Add<MyActionFilterTwo>();
+    a.Filters.Add<MyActionFilter>();
+    
 
 });
 

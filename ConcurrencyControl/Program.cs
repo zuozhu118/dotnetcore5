@@ -12,6 +12,11 @@ namespace ConcurrencyControl
 {
     class Program
     {
+        /// <summary>
+        /// SQL SERVER的RowVersion做并发控制
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         static async Task Main(string[] args)
         {
             Console.WriteLine("请输入你的姓名111：");
